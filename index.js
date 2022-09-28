@@ -15,7 +15,7 @@ fastify.post('/message', function (request, reply) {
     responseToESP8266(request, reply);
 })
 
-fastify.listen({ port }, function (err, address) {
+fastify.listen(port, function (err, address) {
     if (err) {
         fastify.log.error(err)
         process.exit(1)
