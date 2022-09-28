@@ -1,0 +1,14 @@
+{
+  "name": "ESP8266-wemos",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "console-log-colors": "^0.2.3",
+    "fastify": "^4.6.0"
+  },
+  "scripts": {
+    "dev": "nodemon index.js",
+    "start": "node index,js"
+  }
+}
